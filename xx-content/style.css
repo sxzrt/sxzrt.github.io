@@ -84,6 +84,7 @@ header, main, footer { padding-left: 240px; }
   margin-top: 20px;
   color: white;
 }
+
 /* sxx */
 .profile-section{
   background: white;
@@ -102,10 +103,6 @@ header, main, footer { padding-left: 240px; }
 }
 
 
-.title{
-    font-size: 20pt;
-    font-weight: bold;
-}
 .subtitle{
     font-size: 16pt;
     font-weight: bold;
@@ -217,6 +214,7 @@ nav.white {
     vertical-align: middle;
 }
 /* sxx */
+
 
 /* table of content */
 .toc-wrapper { position: relative; margin-top: 42px; }
