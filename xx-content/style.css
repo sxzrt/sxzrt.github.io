@@ -8,7 +8,9 @@ header, main, footer { padding-left: 240px; }
   .force-center-on-small-only { text-align: center; }
 }
 
-.header { font-weight: 100; }
+.header { font-weight:100;
+          font-family: Cambria, 'Helvetica Neue', Helvetica, Arial, Sans-Serif;
+}
 
 /* Rules for sizing the icon. */
 .material-icons.md-18 { font-size: 18px; }
@@ -139,7 +141,7 @@ nav.white {
 }
 
 .profile-link a {
-  color: black;
+  color: white;
   -o-transition:0.5s;
   -ms-transition:0.5s;
   -moz-transition:0.5s;
@@ -189,7 +191,7 @@ nav.white {
 
 
 .social-photo{
-    width: 50px !important;
+    width: 45px !important;
     margin-right: 10px;
     padding-bottom: 10px;
 }
@@ -241,6 +243,7 @@ footer.page-footer .footer-copyright { background-color: rgba(0,0,0,0.1); }
 }
 #index-main {
   max-width: 900px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, Sans-Serif;
 }
 
 .pub-entry.card.horizontal .card-image { padding: 10px; }
@@ -249,9 +252,9 @@ footer.page-footer .footer-copyright { background-color: rgba(0,0,0,0.1); }
 .pub-entry.card.horizontal .card-action { padding: 10px 20px 10px 10px; font-weight: 400; }
 .pub-entry.card.horizontal .card-action a:not(.btn):not(.btn-large):not(.btn-floating) { color: #009688; }
 
-.pub-entry p.title { font-weight: 500; }
-.pub-entry p.authors { margin-top: 0.5ex; font-size: small; }
-.pub-entry p.conference { margin-top: 0.5ex; font-size: small; font-style: italic; }
+.pub-entry p.title { font-weight: 500;}
+.pub-entry p.authors { margin-top: 0.5ex; font-size: small;  }
+.pub-entry p.conference { margin-top: 0.5ex; font-size: small;}
 .pub-entry.card.horizontal:hover {
   box-shadow: 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
