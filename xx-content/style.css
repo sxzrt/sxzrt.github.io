@@ -164,15 +164,15 @@ a:hover {
 }
 
 #news .news-list li {
-  padding: 10px 0;
-  border-bottom: 1px solid #eee;
+  padding: 0;
+  margin-bottom: 14px;
   font-size: 14px;
   color: #333;
   line-height: 1.6;
 }
 
 #news .news-list li:last-child {
-  border-bottom: none;
+  margin-bottom: 0;
 }
 
 .news-highlight {
