@@ -327,6 +327,15 @@ a:hover {
   margin-bottom: 0;
 }
 
+.site-footer-meta {
+  color: #4a4a4a;
+}
+
+#busuanzi_container_site_pv {
+  font-family: 'SF Mono', Monaco, Consolas, monospace;
+  font-size: 12px;
+}
+
 .site-footer-owner {
   font-weight: 600;
 }
